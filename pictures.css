@@ -1,0 +1,104 @@
+/*|||||||||||--*CIRCLE IMAGES*--||||||||||||||*/
+
+.our-coffee,
+.imports {
+	font-size: 6em;
+	color: white;
+}
+
+.our-coffee {
+	
+	font-family: 'path';
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	width: 100%;
+	
+}
+
+
+.pictures-section {
+	height: 0;
+	width: 0;
+}
+
+
+.pictures {
+	display: flex;
+	height: 600px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.picture1,
+.picture2,
+.picture3 {
+	display: flex;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 275px;
+	width: 275px;
+	padding: 10px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.picture1 {
+	background-image: url(img/coffee_bags.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Order*/
+
+.picture1::after {
+	content: "Order";
+	text-align: center;
+	margin-top: 150%;
+	padding: 5%;
+	font-size: 4em;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.picture2 {
+	background-image: url(img/coffee_pour.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.picture2::after {
+	content: "Menu";
+	text-align: center;
+	margin-top: 150%;
+	padding: 5%;
+	font-size: 4em;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.picture3 {
+	background-image: url(img/coffee_lady.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Visit Us*/
+
+.picture3::after {
+	content: "Visit";
+	text-align: center;
+	margin-top: 150%;
+	padding: 5%;
+	font-size: 4em;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'slab';
+    src: url('./fonts/Room205-Regular.otf') format('otf');
+    /* Pretty Modern Browsers */
+}
+
+/*
+* {
+    border: red 1px solid;
+}
+*/
+
+
+:root {
+
+    --size-h1-huge: max(60px, min(17vw, 260px));
+    --size-h1: 62px;
+}
+
+
+.huge {
+
+    font-size: var(--size-h1-huge);
+}
+
+
+
+.hero h1 {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+h1 {
+    font-size: var(--size-h1);
+    font-family: Room-205;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.coffee-container>p {
+    padding: 5%;
+    font-size: 1.5em;
+}

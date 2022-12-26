@@ -1,0 +1,121 @@
+/* NEXT
+1. Add search icon
+2. Add shopping icon
+3. Add big footer with signup.
+4. Add circle labels.
+
+*/
+
+/*|||||||||--*LOCAL FONT*--||||||||||||*/
+
+@font-face {
+	font-family: 'slab';
+	src: url('./fonts/AnticSlab.ttf') format('woff');
+	/* Pretty Modern Browsers */
+}
+
+@font-face {
+	font-family: 'path';
+	src: url('./fonts/LongPath.ttf') format('truetype');
+}
+
+/*|||||||||--*COLORS*--||||||||||||*/
+
+:root {
+	--coffee_light: #dd9b45;
+	--coffee_brown: #6a5130;
+}
+
+/*
+* {
+    border: 1px yellow solid;
+}
+*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-rendering: geometricPrecision;
+	scroll-behavior: smooth;
+}
+
+/*|||||||||/*WEBKITS*||||||||||||*/
+
+/*|||*Firefox*||||*/
+
+html {
+	scrollbar-color: #6a5130 rgb(255, 255, 255);
+	scrollbar-width: thin;
+}
+
+/*|||Browsers||||*/
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #fff;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #dd9b45;
+	border-radius: 10px;
+}
+
+.arrow {
+	position: fixed;
+	top: 94%;
+	left: 94%;
+	filter: invert(100%);
+	width: 3%;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a::after {
+	color: white;
+}
+
+.bag {
+	width: clamp(10px,50vw,30px);
+	height: clamp(10px, 50vw, 30px);
+	filter: invert(100%);
+}
+
+.bag:hover {
+	filter: invert(50%);
+	cursor: pointer;
+}
+
+body {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	text-align: center;
+	background-color: #444;
+	color: white;
+	overflow-x: hidden;
+}
+
+/*|||||||||||--*FEATURE*--||||||||||||||*/
+
+header {
+	background-image: url("img/coffee_pour.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: peach;
+	width: 100%;
+	height: 800px;
+	opacity: .9;
+}
+
+
+

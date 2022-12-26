@@ -1,0 +1,160 @@
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+ /*
+--coffee_light
+*/
+
+
+
+
+ /* ||||||||||||||||||| ICON |||||||||||||||||||*/
+ .icon_wrapper {
+     margin: 50px auto 0;
+     width: 100%;
+ }
+
+ .icon {
+     display: block;
+     fill: #fff;
+     height: 50px;
+     margin: 0 auto;
+     width: 50px;
+ }
+
+ .icon i {
+     width: 400px;
+ }
+
+ /* ||||||||||||||||||| ICON |||||||||||||||||||*/
+
+
+ form {
+
+     padding: 37.5px;
+     margin: 50px 50px;
+     background-color: #333;
+     border-radius: 1%;
+     box-shadow: 1px 1px 5px 1px #000;
+ }
+
+
+ input,
+ button,
+ select,
+ textarea {
+     color: #fff;
+     font: inherit;
+     margin: 0;
+
+ }
+
+ input {
+     line-height: normal;
+ }
+
+ textarea {
+     overflow: auto;
+ }
+
+
+ #phone {
+     width: 25%;
+     filter: grayscale(100);
+ }
+
+ .email {
+     float: right;
+     width: 45%;
+
+ }
+
+
+
+
+ input[type='text'],
+ [type='email'],
+ textarea,
+ select {
+
+     border: none;
+
+     color: grey;
+     font-size: 1.1em;
+     font-weight: 400;
+     letter-spacing: 1px;
+
+     margin: 0em 0 1.8em 0;
+     
+
+     text-transform: uppercase;
+     text-align: center;
+
+     width: 100%;
+
+
+ }
+
+
+
+
+
+ input[type='text']:focus,
+ [type='email']:focus,
+ textarea:focus {
+     outline: none;
+     padding: 0 0 0.875em 0;
+ }
+
+
+
+
+
+ .message {
+     float: none;
+ }
+
+ .name {
+     float: left;
+     width: 45%;
+
+ }
+
+
+
+ textarea {
+     line-height: 150%;
+     height: 150px;
+     resize: none;
+     width: 100%;
+
+ }
+
+
+
+ /* ||||||||||||||||||| BUTTON |||||||||||||||||||*/
+
+ #form_button {
+
+     border: solid 2px #fff;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-size: 1em;
+     font-weight: 400;
+     outline: none;
+     padding: 20px 35px;
+     text-transform: uppercase;
+
+     font-size: 1.2em;
+
+     letter-spacing: 1px;
+     background-color: var(--coffee_light);
+
+ }
+
+ #form_button:hover {
+     background: #fff;
+     color: #333;
+ }
+
+ /* ||||||||||||||||||| BUTTON |||||||||||||||||||*/

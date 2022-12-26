@@ -1,0 +1,89 @@
+/*|||||||||--*NAVIGATION*--||||||||||*/
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100px;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	align-items: center;
+	border-top: 1px solid #444;
+	position: fixed;
+	z-index: 2;
+	opacity: .9;
+}
+
+.logo {
+	font-size: 3em;
+	text-shadow: 1px 3px black;
+}
+
+.logo:hover {
+	color: white;
+	/*
+    font-size: 3.5em;
+   transition: 300ms;
+*/
+}
+
+.o {
+	color: var(--coffee_light);
+}
+
+.nav-links .active {
+	color: #ba7807 !important;
+	background: url(images/font-texture.jpg) repeat center center !important;
+	border-image: url(./img/yellowtexture.jpg) 30% 1 stretch;
+	border: 2px solid;
+}
+
+.active:hover {
+	color: #fff;
+}
+
+.nav-links a {
+	color: #fff;
+	font-size: 1.2rem;
+	text-decoration: none;
+	margin: 50px;
+	padding: 10px;
+	transition: all 500ms;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: var(--coffee_light)
+}
+
+.toggle {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	top: 4.5rem;
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#toggle-image {
+
+	filter: invert();
+	padding: 5%;
+
+}
+
+.toggle>.bar {
+	font-size: 1.1rem;
+	background-color: white;
+	height: 3px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.toggle>.bar:hover {
+	background-color: var(--coffee_light);
+}

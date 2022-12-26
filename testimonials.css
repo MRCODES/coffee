@@ -1,0 +1,53 @@
+
+.testimonies {
+    display: grid;
+	background-image: url(/img/coffee-beans-igor-haritanovich-1695052.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 608px;
+
+}
+
+
+.t-content {
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.2rem;
+    height: 200px;
+    width: 100%;
+    place-items: center;
+    margin-top: 70px;
+
+   
+
+}
+
+
+.t-content img {
+
+    width: 200px;
+    border: 10px white solid;
+
+}
+
+
+.t-content p {
+
+    width: 200px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 3%;
+
+}
+
+
+
+.caro-box  {
+
+    width: 200px;
+  
+}

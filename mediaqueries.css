@@ -1,0 +1,232 @@
+/*||||||||MeDia QuEriEs|||||||||*/
+
+.mobile-links {
+	display: none;
+}
+
+@media (max-width: 830px) {
+
+
+
+
+  	/*--*||||||||NAV|||||||*--*/
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		height: 130px;
+		width: 100%;
+		padding: 10px 20px;
+		align-items: center;
+	}
+	.nav_icons {
+		top: 30%;
+		right: 10%;
+		position: absolute;
+	}
+	.bag {
+		width: 25px;
+		height: 25px;
+	}
+	.search {
+		display: none;
+	}
+	.logo {
+		margin: 0 auto;
+	}
+	.toggle {
+		display: flex;
+	}
+	.mobile-links {
+		display: none;
+		z-index: 1;
+		background-color: #444;
+		position: absolute;
+		width: 100%;
+		top: 8rem;
+		flex-direction: column;
+		transition: .8s;
+	}
+	.nav-links {
+		display: none;
+	}
+	.mobile-links a {
+		color: #fff;
+		font-size: 1.1rem;
+		text-decoration: none;
+		margin: .5px;
+		padding: 15px;
+		text-transform: uppercase;
+		border-bottom: .5px solid #888077;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-links {
+		border-bottom: .5px solid #888077;
+	}
+
+.mobile-links {
+
+	animation: fade 1s 750s;
+}
+
+@keyframes fade {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+	
+}
+	
+
+
+
+	/*--*||||||||Pictures|||||||*--*/
+	.pictures {
+		display: flex;
+		height: 800px;
+		width: 100%;
+		flex-direction: column;
+	}
+	.testimonies {
+		min-height: 1500px;
+	}
+	.t-content {
+
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+		font-size: 1.2rem;
+		height: 500px;
+		width: 100%;
+		place-items: center;
+		margin-top: 70px;
+	
+	}
+	
+
+
+	.our-coffee {
+		padding-top: 5%;
+		font-family: 'path';
+		margin-bottom: 10%;
+		position: absolute;
+		top: 65%;
+		right: 0%;
+	
+		width: 100%;
+
+
+
+		
+	}
+	.picture1,
+	.picture2,
+	.picture3 {
+		display: flex;
+		margin: 0 auto;
+		background-color: #fff;
+		height: 200px;
+		width: 200px;
+		padding: 50px;
+		border-radius: 50%;
+		margin-top: 50px;
+	}
+	header {
+		height: 700px;
+	}
+	section {
+		height: 600px;
+		width: 100%;
+		
+	
+	}
+	/*--*||||||||Products|||||||*--*/
+	.products-section {
+		height: 100%;
+		width: 100%;
+		background-color: rgb(43, 43, 43);
+		border-bottom: rgb(28, 28, 28) solid 1px;
+		padding: 10% 0 20% 0;
+		font-family: "slab";
+	}
+	.products-section img {
+		width: 325px;
+	}
+	.products-content {
+		display: flex;
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 5%;
+	}
+	.product1,
+	.product2,
+	.product3 {
+		padding: 10px;
+		margin-bottom: 25%;
+	}
+	.product1 {
+		margin-top: 30%;
+	}
+	.imports,
+	.our-coffee {
+		font-size: 3em;
+	}
+	/*--*||||||||Footer|||||||*--*/
+	footer {
+		flex-direction: column;
+		height: 850px;
+	}
+	.footer-content {
+    display: flex;
+    flex-direction: column;
+	height: 800px;
+   
+	}
+
+	.quicklinks {
+		text-align: center;
+		margin-top: 10%;
+	}
+	
+	.save {
+		font-size: 1.5em;
+		padding: 1%;
+	}
+	.signupdiv {
+		margin-left: 0px;
+		font-size: 1.4em;
+	}
+
+	.social-media {
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+    padding: 5%;
+   
+	}
+	.arrow {
+		position: fixed;
+		width: 6%;
+		cursor: pointer;
+	}
+
+
+.picture1::after, .picture2::after, .picture3::after {
+
+	margin-top: 150%;
+	padding: 5%;
+	font-size: 3em;
+
+}
+
+
+}
