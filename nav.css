@@ -38,20 +38,31 @@ nav {
 	background: url(images/font-texture.jpg) repeat center center !important;
 	border-image: url(./img/yellowtexture.jpg) 30% 1 stretch;
 	border: 2px solid;
+
+
 }
 
 .active:hover {
 	color: #fff;
 }
 
+
+.nav-links {
+	position: relative;
+	left: 20%;
+	float: right;
+}
+
+
 .nav-links a {
 	color: #fff;
 	font-size: 1.2rem;
 	text-decoration: none;
-	margin: 70px;
+	margin: 20px;
 	padding: 10px;
 	transition: all 500ms;
 	text-transform: uppercase;
+
 }
 
 nav a:hover {

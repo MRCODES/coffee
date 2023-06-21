@@ -84,10 +84,11 @@ a::after {
 }
 
 .bag {
-	width: clamp(10px,50vw,30px);
+	width: clamp(10px, 50vw, 30px);
 	height: clamp(10px, 50vw, 30px);
 	filter: invert(100%);
 }
+
 
 .bag:hover {
 	filter: invert(50%);
@@ -116,6 +117,3 @@ header {
 	height: 800px;
 	opacity: .9;
 }
-
-
-
